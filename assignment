@@ -32,3 +32,4 @@ const mapElement = numbers.map((number) => number * number);
 
 console.log(mapElement);
 
+//seen
