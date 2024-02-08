@@ -1,34 +1,34 @@
-const student = {
-    fistName : "Philip",
-    lastName : "odey",
-    sex : "Male",
-    age : 50,
-    cohort : 18,
-    bestColor : "Blue and white",
-    location : "Oshodi, Lagos"
+// const student = {
+//     fistName : "Philip",
+//     lastName : "odey",
+//     sex : "Male",
+//     age : 50,
+//     cohort : 18,
+//     bestColor : "Blue and white",
+//     location : "Oshodi, Lagos"
 
-};
+// };
 
-for (const value in student) {
-    let details = student[value]
-    console.log(details)
-}
-
-
-let numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
-
-const evenNumbers = numbers.filter((number) => number % 2 == 0);
-
-let multipliedElementArray = []
-console.log(evenNumbers) 
-const elemetMultiply = numbers.forEach(element => {
-    let multiplyElement = element * 2;
-    multipliedElementArray.push(multiplyElement)
-});
-console.log(multipliedElementArray);
-
-const mapElement = numbers.map((number) => number * number);
+// for (const value in student) {
+//     let details = student[value]
+//     console.log(details)
+// }
 
 
-console.log(mapElement);
+// let numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+
+// const evenNumbers = numbers.filter((number) => number % 2 == 0);
+
+// let multipliedElementArray = []
+// console.log(evenNumbers) 
+// const elemetMultiply = numbers.forEach(element => {
+//     let multiplyElement = element * 2;
+//     multipliedElementArray.push(multiplyElement)
+// });
+// console.log(multipliedElementArray);
+
+// const mapElement = numbers.map((number) => number * number);
+
+
+// console.log(mapElement);
 
